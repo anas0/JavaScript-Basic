@@ -1,20 +1,19 @@
-let name = 'Anas'; //String Literal
-let age = 30; //Number Literal
-let isApproved = true;  //Boolean Literal
-let firstName = undefined;
-let lastName = null;
+// let name = 'Anas';
+// let age = 30;
 
-// typeof name
-// "string"
+let person = {
+    name: 'Anas',
+    age: 30
+};
 
-// name = 10
-// 10
+//Dot Notation
+person.name = 'Jone';
 
-// typeof name
-// "number" 
+//Bracket Notation
+person['name'] = 'Bismi';
 
-// typeof age
-// "number"
+//Target Property
+let selection = 'name'
+person[selection] = 'Sina';
 
-// typeof lastName
-// "object"
+console.log(person.name);
