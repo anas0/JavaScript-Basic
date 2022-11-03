@@ -1,7 +1,5 @@
-// let interestRate = 0.3;
-// interestRate = 1;
-// console.log(interestRate);
-
-const interestRate = 0.3;
-//interestRate = 1;
-console.log(interestRate);
+let name = 'Anas'; //String Literal
+let age = 30; //Number Literal
+let isApproved = true;  //Boolean Literal
+let firstName = undefined;
+let lastName = null;
