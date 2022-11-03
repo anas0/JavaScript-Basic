@@ -1,11 +1,7 @@
-let name = "Bismi";
-console.log(name);
+// let interestRate = 0.3;
+// interestRate = 1;
+// console.log(interestRate);
 
-//Cannot be reserved keyword
-//Should be meaningful
-//Cannot start with a number (1name)
-//Cannot contain a space or hyphen (-)
-//Are case-sensitive
-
-let fullName = 'jone Sina';
-let firstName = 'Jone' , lastName = 'Sina';
+const interestRate = 0.3;
+//interestRate = 1;
+console.log(interestRate);
